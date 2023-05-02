@@ -1,0 +1,192 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #F0F8FF;
+  color: #4B0082;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+input[type=number] {
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid #4B0082;
+}
+
+#operationSelector {
+  font-size: 24px;
+  padding: 20px;
+}
+
+#visualizeBtn {
+  font-size: 40px;
+  background-color: #17e9a3;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-display {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-display + .input-display {
+  margin-left: 70px;
+}
+
+#blocksContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.block-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  align-items: flex-start;
+  max-height: 240px;
+}
+
+.block {
+  margin: 2px;
+}
+
+.block.blue {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+}
+
+.block.purple {
+  width: 20px;
+  height: 220px;
+  background-color: purple;
+}
+
+.block.red {
+  width: 220px;
+  height: 220px;
+  background-color: #8B4513; /* Changed color to brown */
+}
+
+.block.red.large {
+  width: 460px; /* 20px * 23 purple blocks + 2px * 22 gaps between purple blocks */
+}
+
+.input-display {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-display + .input-display {
+  margin-left: 70px;
+}
+
+.block.green {
+  width: 220px; /* 20px * 10 purple blocks + 2px * 9 gaps between purple blocks */
+  height: 220px; /* 20px * 10 purple blocks + 2px * 9 gaps between purple blocks */
+  background-color: green;
+}
+
+.block.hundred {
+  width: 220px; /* 20px * 10 purple blocks + 2px * 9 gaps between purple blocks */
+  height: 220px; /* 20px * 10 purple blocks + 2px * 9 gaps between purple blocks */
+  background-color: red;
+}
+
+.block.thousand {
+  width: 460px; /* 20px * 23 purple blocks + 2px * 22 gaps between purple blocks */
+  height: 220px; /* 20px * 10 purple blocks + 2px * 9 gaps between purple blocks */
+  background-color: green;
+}
+
+
+#keySection {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#keySection .block-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+#keySection .block-container .block {
+  margin: 0;
+}
+
+#keySection .block-container span {
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+#key {
+  margin-top: 50px;
+}
+
+#keySection .block-container .block.green {
+  width: 460px;
+  height: 220px;
+}
+
+#blocksContainer {
+  margin-bottom: 400px;
+}
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #F0F8FF;
+  color: #4B0082;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+input[type=number] {
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid #4B0082;
+}
+
+#operationSelector {
+  font-size: 24px;
+  padding: 20px;
+}
+
+
+#keyBtn {
+  font-size: 16px;
+  background-color: #6836df;
+  color: rgb(252, 252, 252);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+.block.red {
+  width: 220px;
+  height: 220px;
+  background-color: red;
+}

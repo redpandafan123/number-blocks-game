@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Number Fun</title>
+</head>
+
+<body>
+  <h1>Number Fun!</h1>
+  <input id="numberInput" type="number" placeholder="First number">
+  <input id="multiplierInput" type="number" placeholder="Second number">
+
+  <div id="operationSelector">
+    <input type="radio" id="addition" name="operation" value="addition" checked>
+    <label for="addition">Add</label>
+    <input type="radio" id="subtraction" name="operation" value="subtraction">
+    <label for="subtraction">Subtract</label>
+    <input type="radio" id="multiplication" name="operation" value="multiplication">
+    <label for="multiplication">Multiply</label>
+    <input type="radio" id="division" name="operation" value="division">
+    <label for="division">Divide</label>
+  </div>
+
+  <div id="input1" class="input-display"></div>
+  <div id="input2" class="input-display"></div>
+  <br>
+  <button id="visualizeBtn">Calculate!</button>
+  <div id="blocksContainer">
+    <div id="redBlocks" class="block-container"></div>
+    <div id="purpleBlocks" class="block-container"></div>
+    <div id="blueBlocks" class="block-container"></div>
+    <div id="greenBlocks" class="block-container"></div>
+  </div>
+
+ 
+
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
+
+<button id="keyBtn" onclick="window.location.href = 'key.html';">Block Sizes Key</button>
